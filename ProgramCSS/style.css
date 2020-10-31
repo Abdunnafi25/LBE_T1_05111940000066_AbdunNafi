@@ -1,0 +1,408 @@
+
+.cover {
+
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-color: red;
+	height:0 auto;
+	width: 80%;
+
+}
+#header {
+	float: left;
+	background-color: gray;
+	height: 9%;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+	font-family: arial;
+	color: white;
+
+
+}
+
+#kiri {
+	float: left;
+	background-color: green;
+	height: 85%;
+	width: 70%;
+}
+#kanan {
+	float: left;
+	background-color: black;
+	height: 85%;
+	width: 30%;
+}
+#foto {
+	position:absolute;
+	margin-left:auto;
+	margin-top: 2%;
+	margin-right:8%;
+	margin-bottom:auto;
+	left:0;
+	right:2px;
+	top:0;
+	bottom:0;
+	background-color: yellow;
+	height:150px;
+	width: 150px;
+	border-radius: 100%;
+	background-image: url(../gambar/profil.jpeg);
+	background-size: 100% 100%;
+
+}
+#coverMenu {
+	float: left;
+	background-color: red;
+	height: 10%;
+	width: 100%;
+
+}
+#content {
+	float: left;
+	background-color: orange;
+	height: 90%;
+	width: 100%;
+}
+
+.Submenu {
+	float: left;
+	background-color: orange;
+	height: 50%;
+	width: 10%;
+	margin : 10px 10px 10px 10px;
+	margin-top: 13px;
+
+
+}
+#c_tahun{
+
+	float: left;
+	background-color: white;
+	width: 200px;
+	height: 30px;
+	text-align: center;
+
+	color: white;
+	position: relative;
+}
+#tahun1 {
+	float: left;
+	background-color: green;
+	width: 80%;
+	height: 30px;
+	text-align: center;
+
+	color: white;
+	position: relative;
+
+}
+
+.ribbon1 {
+	font:bold 16px Cambria,Georgia,Times,Serif;
+	color:#fff;
+	width:70%;
+	padding:0px 30px;
+	background:#075c85;
+	position:relative;
+	line-height:48px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.ribbon1:after {
+	content:"";
+	position:absolute;
+	top:0px;
+	left:100%;
+	width:0px;
+	height:0px;
+	border:24px solid transparent;
+	border-left-color: yellow;
+}
+.Lkti {
+	margin:20px;
+	background-color: yellow;
+	height:50px;
+	width: 50px;
+	border-radius: 100%;
+	background-image: url(../gambar/UNP.png);
+	background-size: 100% 100%;
+}
+
+.electra {
+	margin:20px;
+	background-color: yellow;
+	height:50px;
+	width: 50px;
+	border-radius: 100%;
+	background-image: url(../gambar/Electra.png); 
+	background-size: 100% 100%;
+
+
+}
+
+.font {
+	font-size: 23px;
+}
+.Osk {
+	margin:20px;
+	background-color: yellow;
+	height:50px;
+	width: 50px;
+	border-radius: 100%;
+	background-image: url(../gambar/Osk.png);
+	background-size: 100% 100%;
+}
+
+
+.ribbon3 {
+	font:bold 16px Cambria,Georgia,Times,Serif;
+	color:#fff;
+	width:60%;
+	padding:0px 30px;
+	background:#075c85;
+	position:relative;
+	line-height:48px;
+	margin-left:50px; 
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.ribbon3:before {
+	content:"";
+	position:absolute;
+	top:0px;
+	right:100%;
+	width:0px;
+	height:0px;
+	border:24px solid #075c85;
+	border-left-color:transparent;
+}
+.ribbon3:after {
+	content:"";
+	position:absolute;
+	top:0px;
+	left:100%;
+	width:0px;
+	height:0px;
+	border:24px solid transparent;
+	border-left-color:#075c85;
+}
+.namaskill {
+	text-align: center;
+	margin-top: 20px;
+}
+.grafik {
+	height: 100px;
+	width: 400px;
+}
+.grafik1 {
+	position: relative;
+	margin: 0 auto;
+	float: center;
+}
+.grafik2 {
+	position: relative;
+	margin: 0 auto;
+	float: center;
+}
+.grafik3 {
+	position: relative;
+	margin: 0 auto;
+	float: center;
+}
+.grafik4 {
+	position: relative;
+	margin: 0 auto;
+	float: center;
+}
+.gf1 {
+	background-color: blue;
+	color: white;
+	text-align: center;
+	width: 200px;
+	height: 10px;
+}
+.gf1x {
+	background-color: white;
+	width: 50px;
+	height: 10px;
+}
+
+.gf2 {
+	background-color: blue;
+	color: white;
+	text-align: center;
+	width: 200px;
+	height: 10px;
+}
+.gf2x {
+	background-color: white;
+	width: 50px;
+	height: 10px;
+}
+.gf3 {
+	background-color: blue;
+	color: white;
+	text-align: center;
+	width: 190px;
+	height: 10px;
+}
+.gf3x {
+	background-color: white;
+	width: 60px;
+	height: 10px;
+}
+.gf4 {
+	background-color: blue;
+	color: white;
+	text-align: center;
+	width: 180px;
+	height: 10px;
+}
+.gf4x {
+	background-color: white;
+	width: 70px;
+	height: 10px;
+}
+
+.about {
+	position: relative;
+	background-color: black;
+	width: 60%;
+	height: 10%;
+	margin-top: 100px;
+	margin: center;
+	margin-left: 70px;
+
+}
+
+.isiAbout {
+	position: absolute;
+	color: white;
+	background-color: red;
+	border-radius: 10px 10px;
+	width: 100px;
+	height: 25px;
+	margin-left: 45px;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 3px;
+}
+.Tentang {
+	background-color: red;
+	width: 80%;
+	height: 30%;
+	margin-left: 35px;
+	border-radius: 20px 20px;
+}
+
+.Kontak {
+	position: relative;
+	background-color: black;
+	width: 60%;
+	height: 10%;
+	margin-top: 5px;
+	margin: center;
+	margin-left: 70px;
+
+}
+
+.DesainKontak {
+	position: absolute;
+	color: white;
+	background-color: red;
+	border-radius: 10px 10px;
+	width: 100px;
+	height: 25px;
+	margin-left: 45px;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 3px;
+}
+.infoKontak {
+	background-color: red;
+	width: 80%;
+	height: 30%;
+	margin-left: 35px;
+	border-radius: 20px 20px;
+}
+
+
+.nama {
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 4px;
+	padding-left: 0px;
+}
+
+@keyframes bg-blink {  
+    0% { background-color:#ff0000; }
+    100% { background-color:#ffffff; }
+}
+@-webkit-keyframes bg-blink {
+    0% { background-color:#ff0000; }
+    100% { background-color:#ffffff; }
+} 
+.blink {
+  animation: blink 1s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+  color:#ffffff;
+}
+@keyframes blink {
+  to { visibility: hidden; }
+}
+@-webkit-keyframes blink {
+  to { visibility: hidden; }
+}
+
+.wa {
+	margin:0px;
+	background-color: yellow;
+	height:25px;
+	width: 25px;
+	border-radius: 100%;
+	background-image: url(../gambar/wa.png);
+	background-size: 100% 100%;
+}
+.email {
+	margin:0px;
+	background-color: yellow;
+	height:25px;
+	width: 25px;
+	border-radius: 100%;
+	background-image: url(../gambar/email.png);
+	background-size: 100% 100%;
+}
+.ig {
+	margin:0px;
+	background-color: yellow;
+	height:25px;
+	width: 25px;
+	border-radius: 100%;
+	background-image: url(../gambar/ig.png);
+	background-size: 100% 100%;
+}
+.fb {
+    margin:0px;
+	background-color: yellow;
+	height:25px;
+	width: 25px;
+	border-radius: 100%;
+	background-image: url(../gambar/fb.png);
+	background-size: 100% 100%;
+}
+.footer {
+	position: absolute;
+	background-color: white;
+	margin-top: 20%;
+	height: 3%;
+	width: 80%;
+
+}
